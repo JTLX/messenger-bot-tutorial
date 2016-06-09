@@ -1,0 +1,101 @@
+2016-06-09T08:18:50.059810+00:00 heroku[web.1]: State changed from starting to up
+2016-06-09T08:18:50.204077+00:00 heroku[web.1]: Process exited with status 143
+2016-06-09T08:18:50.865955+00:00 heroku[router]: at=info method=GET path="/webhook?hub.mode=subscribe&hub.challenge=621710176&hub.verify_token=giant_coffee_mug_explodes" host=nbot3000.herokuapp.com request_id=9bb13ee1-0fe9-45b6-9e64-8b5169f10963 fwd="69.171.230.119" dyno=web.1 connect=1ms service=14ms status=200 bytes=202
+2016-06-09T08:18:50.863730+00:00 app[web.1]:     at ServerResponse.send (/app/node_modules/express/lib/response.js:163:12)
+2016-06-09T08:18:50.863732+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+2016-06-09T08:18:50.863731+00:00 app[web.1]:     at /app/index.js:26:6
+2016-06-09T08:18:50.863733+00:00 app[web.1]:     at next (/app/node_modules/express/lib/router/route.js:131:13)
+2016-06-09T08:18:50.863729+00:00 app[web.1]:     at ServerResponse.header (/app/node_modules/express/lib/response.js:718:10)
+2016-06-09T08:18:50.863701+00:00 app[web.1]: Error: Can't set headers after they are sent.
+2016-06-09T08:18:50.863735+00:00 app[web.1]:     at /app/node_modules/express/lib/router/index.js:277:22
+2016-06-09T08:18:50.863713+00:00 app[web.1]:     at ServerResponse.OutgoingMessage.setHeader (_http_outgoing.js:346:11)
+2016-06-09T08:18:50.863735+00:00 app[web.1]:     at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+2016-06-09T08:18:50.863736+00:00 app[web.1]:     at Function.process_params (/app/node_modules/express/lib/router/index.js:330:12)
+2016-06-09T08:18:50.863734+00:00 app[web.1]:     at Route.dispatch (/app/node_modules/express/lib/router/route.js:112:3)
+2016-06-09T08:21:11.624345+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=0c1ff749-a1bb-4586-8e7b-91290f72c96a fwd="69.63.188.100" dyno=web.1 connect=0ms service=38ms status=200 bytes=196
+2016-06-09T08:21:11.699126+00:00 app[web.1]: Error:  { message: 'Invalid OAuth access token.',
+2016-06-09T08:21:11.699163+00:00 app[web.1]:   type: 'OAuthException',
+2016-06-09T08:21:11.699165+00:00 app[web.1]:   code: 190,
+2016-06-09T08:21:11.699166+00:00 app[web.1]:   fbtrace_id: 'Fpwvtems9Xq' }
+2016-06-09T08:23:44.543785+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-09T08:23:44.543776+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-09T08:23:44.322100+00:00 heroku[api]: Deploy e6ff509 by josephtang765@gmail.com
+2016-06-09T08:23:44.322174+00:00 heroku[api]: Release v5 created by josephtang765@gmail.com
+2016-06-09T08:23:44.608928+00:00 heroku[web.1]: Restarting
+2016-06-09T08:23:44.609737+00:00 heroku[web.1]: State changed from up to starting
+2016-06-09T08:23:45.867818+00:00 heroku[web.1]: Starting process with command `node index.js`
+2016-06-09T08:23:47.285080+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2016-06-09T08:23:47.756709+00:00 app[web.1]: running on port 3496
+2016-06-09T08:23:48.172373+00:00 heroku[web.1]: State changed from starting to up
+2016-06-09T08:23:48.726790+00:00 heroku[web.1]: Process exited with status 143
+2016-06-09T08:24:16.729475+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=7f2ca809-e392-4c4b-8697-79feaad4739f fwd="69.63.188.118" dyno=web.1 connect=0ms service=47ms status=200 bytes=196
+2016-06-09T08:24:17.433193+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=e229b5dd-6abb-4aef-adf9-f65f278dccd0 fwd="173.252.120.97" dyno=web.1 connect=1ms service=9ms status=200 bytes=196
+2016-06-09T08:24:18.905265+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=e0a589aa-5658-401c-8520-24817e829602 fwd="173.252.120.113" dyno=web.1 connect=0ms service=4ms status=200 bytes=196
+2016-06-09T08:24:19.465283+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=949ff7ff-2d4a-4922-8c66-38feac3c8f6b fwd="66.220.158.109" dyno=web.1 connect=8ms service=4ms status=200 bytes=196
+2016-06-09T08:24:48.419090+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=cee5b535-a172-41fd-9242-617fb5c9191f fwd="66.220.158.120" dyno=web.1 connect=0ms service=3ms status=200 bytes=196
+2016-06-09T08:24:48.625671+00:00 app[web.1]:   type: 'OAuthException',
+2016-06-09T08:24:48.625690+00:00 app[web.1]:   code: 100,
+2016-06-09T08:24:48.625691+00:00 app[web.1]:   fbtrace_id: 'BDhQ0wY2nf6' }
+2016-06-09T08:24:48.625651+00:00 app[web.1]: Error:  { message: '(#100) Missing template_type for attachment\'s payload',
+2016-06-09T08:25:02.115852+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=c61e46dd-01c2-4aa6-ae54-43d8d87f6192 fwd="69.63.188.123" dyno=web.1 connect=7ms service=3ms status=200 bytes=196
+2016-06-09T08:25:02.803894+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=c45dd57a-e634-48c4-81fa-b94f26460882 fwd="66.220.158.107" dyno=web.1 connect=1ms service=2ms status=200 bytes=196
+2016-06-09T08:25:18.827831+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=1b483b45-60b4-4df4-ad4f-81bd2cee9d9e fwd="69.63.188.106" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:25:18.966123+00:00 app[web.1]: Error:  { message: '(#100) Missing template_type for attachment\'s payload',
+2016-06-09T08:25:18.966157+00:00 app[web.1]:   type: 'OAuthException',
+2016-06-09T08:25:18.966166+00:00 app[web.1]:   code: 100,
+2016-06-09T08:25:18.966166+00:00 app[web.1]:   fbtrace_id: 'Au/GsvPQPN5' }
+2016-06-09T08:25:20.738968+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=448676a0-cdcd-470c-9a78-970a2bccf7dc fwd="69.63.188.127" dyno=web.1 connect=2ms service=4ms status=200 bytes=196
+2016-06-09T08:25:21.326474+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=8deb8fcf-9d30-4c72-a6a0-a43dedd3db5d fwd="66.220.158.122" dyno=web.1 connect=0ms service=5ms status=200 bytes=196
+2016-06-09T08:25:24.756005+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=2dea03f2-a057-45c3-9575-5bf01117c111 fwd="173.252.120.122" dyno=web.1 connect=1ms service=6ms status=200 bytes=196
+2016-06-09T08:25:24.898894+00:00 app[web.1]: Error:  { message: '(#100) Missing template_type for attachment\'s payload',
+2016-06-09T08:25:24.898910+00:00 app[web.1]:   type: 'OAuthException',
+2016-06-09T08:25:24.898911+00:00 app[web.1]:   code: 100,
+2016-06-09T08:25:24.898912+00:00 app[web.1]:   fbtrace_id: 'EDgI/Mr95S0' }
+2016-06-09T08:26:17.256780+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=ecae0f47-182a-4012-84d0-a575cd750c8e fwd="69.63.188.114" dyno=web.1 connect=1ms service=25ms status=200 bytes=196
+2016-06-09T08:26:17.762023+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=37fbd7c7-e038-42cd-b412-c15641468b97 fwd="69.63.188.127" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:26:23.165677+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=fe0f9e96-94d6-4f96-bac0-4cc24c1cf605 fwd="69.63.188.124" dyno=web.1 connect=1ms service=5ms status=200 bytes=196
+2016-06-09T08:26:23.303909+00:00 app[web.1]: Error:  { message: '(#100) Missing template_type for attachment\'s payload',
+2016-06-09T08:26:23.303956+00:00 app[web.1]:   type: 'OAuthException',
+2016-06-09T08:26:23.303957+00:00 app[web.1]:   code: 100,
+2016-06-09T08:26:23.303958+00:00 app[web.1]:   fbtrace_id: 'AE9i7W0L7qb' }
+2016-06-09T08:29:00.971407+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=b51a0cd2-ddcf-4040-bec6-e8942d86e3ed fwd="173.252.120.104" dyno=web.1 connect=0ms service=12ms status=200 bytes=196
+2016-06-09T08:29:01.042555+00:00 app[web.1]: Error:  { message: '(#100) Missing template_type for attachment\'s payload',
+2016-06-09T08:29:01.042605+00:00 app[web.1]:   type: 'OAuthException',
+2016-06-09T08:29:01.042607+00:00 app[web.1]:   code: 100,
+2016-06-09T08:29:01.042607+00:00 app[web.1]:   fbtrace_id: 'Hb0XNQ3hPD6' }
+2016-06-09T08:29:06.343951+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=94ee391f-1bbb-46e3-8df4-18676773c590 fwd="173.252.120.112" dyno=web.1 connect=0ms service=3ms status=200 bytes=196
+2016-06-09T08:29:06.797179+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=1119493e-bc61-4b14-bac8-97fdba1f2824 fwd="69.63.188.126" dyno=web.1 connect=1ms service=4ms status=200 bytes=196
+2016-06-09T08:29:06.993153+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=cb838e2e-2709-4563-9850-58c307cb5d61 fwd="69.63.188.101" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:29:07.410578+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=92730955-2f75-450e-a942-a41ff42a3fe0 fwd="173.252.120.101" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:29:07.534233+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=048e9737-141b-48d9-8af0-ef1273b3b107 fwd="66.220.158.120" dyno=web.1 connect=1ms service=3ms status=200 bytes=196
+2016-06-09T08:29:07.759811+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=e534b76e-05d3-4184-8d72-12b0852588a6 fwd="173.252.120.107" dyno=web.1 connect=0ms service=1ms status=200 bytes=196
+2016-06-09T08:29:07.996935+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=7a192b77-3940-4b1f-b9a1-4cf194578904 fwd="69.63.188.106" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:29:08.076379+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=451cdb32-9258-4acb-8904-45a3350db198 fwd="69.63.188.114" dyno=web.1 connect=1ms service=3ms status=200 bytes=196
+2016-06-09T08:29:08.526569+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=6614e783-3362-4666-9012-12ea0c63c699 fwd="69.63.188.100" dyno=web.1 connect=1ms service=5ms status=200 bytes=196
+2016-06-09T08:29:08.974995+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=5cbb4de1-58c0-4ef2-af97-3cd6035933d9 fwd="66.220.158.107" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:29:09.193235+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=1512b681-1a06-42dc-b9d1-b280145f0dd9 fwd="66.220.158.103" dyno=web.1 connect=0ms service=5ms status=200 bytes=196
+2016-06-09T08:29:09.409633+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=74766c5a-32b9-4b06-a449-ffcf71501a63 fwd="66.220.158.123" dyno=web.1 connect=0ms service=8ms status=200 bytes=196
+2016-06-09T08:29:09.547919+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=515708cf-e434-4808-b668-ecc4deab1c06 fwd="173.252.120.101" dyno=web.1 connect=1ms service=3ms status=200 bytes=196
+2016-06-09T08:29:10.045482+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=061d9959-29bc-44b3-84f0-0d89c43d1236 fwd="173.252.120.120" dyno=web.1 connect=1ms service=5ms status=200 bytes=196
+2016-06-09T08:29:10.166483+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=16c11dec-fc4e-4d30-ad71-a0bb646ad467 fwd="173.252.120.120" dyno=web.1 connect=1ms service=4ms status=200 bytes=196
+2016-06-09T08:29:10.531320+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=1d0436cc-1466-4570-ae52-8a7c3e12e4dc fwd="66.220.158.123" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:29:10.727781+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=57840bf7-64dd-4bcf-b3ec-a868130af694 fwd="173.252.120.106" dyno=web.1 connect=1ms service=3ms status=200 bytes=196
+2016-06-09T08:29:11.213464+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=9e4bc334-ab96-4daa-829f-ae1bead0ffb4 fwd="69.63.188.123" dyno=web.1 connect=1ms service=3ms status=200 bytes=196
+2016-06-09T08:29:11.397388+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=659b01c1-dcba-4834-985f-a74a1eca5b9c fwd="69.63.188.103" dyno=web.1 connect=1ms service=4ms status=200 bytes=196
+2016-06-09T08:29:11.643698+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=423f2253-a7a0-4933-bb33-d5003a28a9c4 fwd="173.252.120.121" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:29:11.905157+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=630755a0-e725-4286-b595-731536c4e6be fwd="66.220.158.121" dyno=web.1 connect=1ms service=3ms status=200 bytes=196
+2016-06-09T08:29:12.410457+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=f037125c-01a7-4bbc-949b-0a16182bc513 fwd="66.220.158.114" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:29:12.744179+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=3152fd1a-56cc-43b0-b62c-d6c8fb77df49 fwd="69.63.188.125" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:29:13.190388+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=e06f217c-c25a-4a21-b374-43fb8424ac98 fwd="69.63.188.107" dyno=web.1 connect=2ms service=2ms status=200 bytes=196
+2016-06-09T08:29:25.330576+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=92acc063-c02a-48a4-a35d-b808925a3a57 fwd="173.252.120.108" dyno=web.1 connect=1ms service=2ms status=200 bytes=196
+2016-06-09T08:29:29.723724+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=bbcbce88-5ac8-45ce-aa46-12e4221f458a fwd="66.220.158.99" dyno=web.1 connect=0ms service=4ms status=200 bytes=196
+2016-06-09T08:29:30.255648+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=534d18ed-f74b-4389-9e74-6d43e4d4b66d fwd="69.63.188.102" dyno=web.1 connect=1ms service=6ms status=200 bytes=196
+2016-06-09T08:29:38.871416+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=f6ad8216-8b11-45b2-9f42-bfba8894acf8 fwd="66.220.158.102" dyno=web.1 connect=0ms service=3ms status=200 bytes=196
+2016-06-09T08:29:39.384002+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=a6c89949-5a05-4594-966e-88522c7842f4 fwd="173.252.120.108" dyno=web.1 connect=0ms service=2ms status=200 bytes=196
+2016-06-09T08:29:43.473043+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=1dbeb505-e13e-492a-b6a1-57eacb5e98f7 fwd="69.63.188.127" dyno=web.1 connect=0ms service=3ms status=200 bytes=196
+2016-06-09T08:29:43.960267+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=43c63e67-ac21-4bea-8124-1aaca54d190f fwd="66.220.158.120" dyno=web.1 connect=1ms service=2ms status=200 bytes=196
+2016-06-09T08:29:55.909241+00:00 heroku[router]: at=info method=POST path="/webhook" host=nbot3000.herokuapp.com request_id=89490eb0-28f1-4dbc-9452-d10f03d9b095 fwd="69.63.188.101" dyno=web.1 connect=4ms service=11ms status=200 bytes=196
+2016-06-09T08:29:56.042936+00:00 app[web.1]: Error:  { message: '(#100) Missing template_type for attachment\'s payload',
+2016-06-09T08:29:56.043564+00:00 app[web.1]:   code: 100,
+2016-06-09T08:29:56.043566+00:00 app[web.1]:   fbtrace_id: 'CqpLZJy089B' }
+2016-06-09T08:29:56.043562+00:00 app[web.1]:   type: 'OAuthException',
