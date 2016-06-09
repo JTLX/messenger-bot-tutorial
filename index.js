@@ -50,7 +50,7 @@ app.post('/webhook/', function (req, res) {
 })
 
 
-const token = "<PAGE_ACCESS_TOKEN>"
+const token = "EAAJKaDZBwiKcBAHqsz601pTvKc6lkGUhSmqTiSZBj4BneZA3bjSZAZBM8Pknk1wf2cLohxfFrNllGWrgbvZAB37PScVCbjBvgIbC8B8M6BKq6JAWgeeRiKct9f9s21OKfcJ3TNLpc8zOURx4W8bu4uHP1xTtZADjpIpnggqOF8zcwZDZD"
 
 function sendTextMessage(sender, text) {
 	let messageData = { text:text }
@@ -77,7 +77,7 @@ function sendGenericMessage(sender) {
 		"attachment": {
 			"type": "template",
 			"payload": {
-				"template_type": "generic",
+				"EAAJKaDZBwiKcBAHqsz601pTvKc6lkGUhSmqTiSZBj4BneZA3bjSZAZBM8Pknk1wf2cLohxfFrNllGWrgbvZAB37PScVCbjBvgIbC8B8M6BKq6JAWgeeRiKct9f9s21OKfcJ3TNLpc8zOURx4W8bu4uHP1xTtZADjpIpnggqOF8zcwZDZD": "generic",
 				"elements": [{
 					"title": "First card",
 					"subtitle": "Element #1 of an hscroll",
